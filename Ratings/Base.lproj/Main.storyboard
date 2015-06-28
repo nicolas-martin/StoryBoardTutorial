@@ -216,6 +216,9 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="4pq-tG-tRe" kind="unwind" identifier="SaveSelectedGame" unwindAction="selectedGame:" id="Evl-s5-ASU"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -226,6 +229,7 @@
                     <navigationItem key="navigationItem" title="Choose Game" id="rNk-CY-5ZY"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cFR-Qg-wXs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="4pq-tG-tRe" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1720" y="-536"/>
         </scene>
